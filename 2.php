@@ -1,0 +1,20 @@
+<?php
+$array_letter=[];
+$var=1;
+$equivalent;
+$array_letter[0]='one';
+$array_letter[1]='two';
+$array_letter[2]='three';
+$array_letter[3]='four';
+$array_letter[4]='five';
+$array_letter[5]='six';
+$array_letter[6]='seven';
+$array_letter[7]='eight';
+$array_letter[8]='nine';
+$array_letter[9]='ten';
+for($i=0;$i<10;$i++){
+    if($var==$i+1){
+        $equivalent=$array_letter[$i];
+    }
+}
+echo $equivalent;
